@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Perumahan</string>
+    <string name="LayoutLogin">Login</string>
+    <string name="LayoutSignup">Signup</string>
+</resources>

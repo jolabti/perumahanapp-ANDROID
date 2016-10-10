@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.user.perumahan.detailActivity">
+
+
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:id="@+id/tablelayout1"
+
+        >
+
+        <TableRow
+
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Bulan"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/borderpink"
+                android:id="@+id/detailbulanView"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Pembayaran"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/borderpink"
+                android:id="@+id/detailpembayaranView"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Status"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/borderpink"
+                android:id="@+id/detailstatusView"
+
+                />
+
+            <TextView
+
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:text="Sisa Cicilan"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/borderpink"
+                android:id="@+id/detailsisacicilanView"
+
+                />
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Januari"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/bordergray"
+                android:id="@+id/sdetailbulanView"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Jumlah"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/bordergray"
+                android:id="@+id/sjumlahbayarView"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Lunas"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/bordergray"
+                android:id="@+id/sdetailstatusView"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="1000000"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/bordergray"
+                android:id="@+id/sdetailsisacicilanView"
+
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Bayar"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:id="@+id/bayarButton"
+
+        />
+
+    <Button
+
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Print"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:id="@+id/printButton"
+
+        />
+
+
+</RelativeLayout>
